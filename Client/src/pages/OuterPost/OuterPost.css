@@ -1,0 +1,19 @@
+.Post{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    gap: 1rem;
+    align-items: center;
+
+}
+.Post>img{
+    width: 50%;
+    max-height: 20rem;
+    margin-top: 1rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    color: rgb(241, 237, 237);
+
+}
