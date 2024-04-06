@@ -6,7 +6,7 @@ export const createRoom=async (req,res)=>{
         Admin:req.body.userId,
         members: [req.body.userId],
       });
-
+ 
       try {
         const result = await newRoom.save();
         res.status(200).json(result);

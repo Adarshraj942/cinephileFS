@@ -57,8 +57,8 @@ const Auth = () => {
       <div className="a-left">
           <img src={Logo} alt="" style={{width:"5rem"}} />
           <div className="WebName">
-              <h1>CINEPHILE</h1>
-              <h6>Explore the world of movies</h6>
+              <h1>KAMBIKUTTAPPAN</h1>
+              <h6>Explore the world of stories</h6>
           </div>
       </div>
       {/* right side */}
